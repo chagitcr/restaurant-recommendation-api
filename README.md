@@ -276,5 +276,3 @@ curl -X GET "https://<api-id>.execute-api.<region>.amazonaws.com/dev/recommendat
 ### API
 - [API](docs/api.md)
 
-### Development
-- [Development](docs/development.md) 
