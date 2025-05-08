@@ -36,7 +36,6 @@ A serverless API that provides restaurant recommendations based on user preferen
 │   ├── architecture.md
 │   ├── api.md
 │   └── development.md
-├── .gitignore
 ├── README.md
 └── requirements.txt
 ```
