@@ -187,6 +187,8 @@ Query Parameters:
 - `style` (optional): Cuisine style (e.g., "Italian", "Japanese")
 - `vegetarian` (optional): "true" or "false"
 - `location` (optional): Area name (e.g., "Downtown")
+- `delivery` (optional): "true" or "false"
+- `open_now` (optional): "true" or "false"
 
 Example Request:
 ```bash
