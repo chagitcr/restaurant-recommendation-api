@@ -124,7 +124,7 @@ API_ENDPOINT=$(terraform output -raw api_endpoint)
 
 2. Test the API with curl:
 ```bash
-curl -X GET "${API_ENDPOINT}/recommendations?style=Italian&vegetarian=yes"
+curl -X GET "${API_ENDPOINT}?style=Italian&vegetarian=yes"
 ```
 
 ## Scripts Overview
