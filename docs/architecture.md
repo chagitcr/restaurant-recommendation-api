@@ -17,7 +17,6 @@ The Restaurant Recommendation API is built using a serverless architecture on AW
 3. **DynamoDB**
    - NoSQL database
    - Stores restaurant data
-   - Uses GSI for efficient querying
 
 4. **KMS**
    - Manages encryption keys
