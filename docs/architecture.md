@@ -31,5 +31,4 @@ The Restaurant Recommendation API is built using a serverless architecture on AW
 ### Security
 - KMS encryption for logs
 - IAM roles and policies
-- API Gateway authorization
 - DynamoDB encryption at rest 
