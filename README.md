@@ -216,18 +216,12 @@ curl -X GET "https://<api-id>.execute-api.<region>.amazonaws.com/dev/recommendat
 ## Future Improvements
 
 ### 1. CI/CD Pipeline
-- Implement GitHub Actions for automated deployments
 - Add automatic Lambda packaging on code changes
-- Set up automated testing before deployment
-- Add environment-specific deployment workflows
 - Implement infrastructure drift detection
 - Add automated security scanning
-- Set up automated backup and restore procedures
 
 ### 2. State Management
 - Implement state storage in DynamoDB for user preferences
-- Add user authentication and authorization
-- Store user history and preferences
 
 ### 3. Custom Domain Setup
 - Add ACM (AWS Certificate Manager) for SSL/TLS
@@ -235,20 +229,7 @@ curl -X GET "https://<api-id>.execute-api.<region>.amazonaws.com/dev/recommendat
 - Create DNS records for the API Gateway
 - Set up custom domain mapping in API Gateway
 
-### 4. Enhanced Features
-- Add restaurant images and menus
-- Implement real-time availability checking
-- Add reservation system integration
-- Add search functionality with filters
-- Implement caching layer using ElastiCache
-
-### 5. Monitoring and Logging
-- Set up CloudWatch dashboards
-- Implement structured logging
-- Add performance metrics
-- Set up alerts for errors and performance issues
-
-### 6. Security Enhancements
+### 4. Security Enhancements
 - Implement API key rotation
 - Add rate limiting
 - Set up WAF (Web Application Firewall)
@@ -286,10 +267,6 @@ curl -X GET "https://<api-id>.execute-api.<region>.amazonaws.com/dev/recommendat
 3. Commit your changes
 4. Push to the branch
 5. Create a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Documentation
 
