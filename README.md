@@ -198,11 +198,14 @@ curl -X GET "https://<api-id>.execute-api.<region>.amazonaws.com/dev/recommendat
 {
   "recommendations": [
     {
-      "id": "1",
-      "name": "Pasta Paradise",
-      "style": "Italian",
-      "vegetarian": "yes",
-      "location": "Downtown"
+      "vegetarian": "true",
+      "openHour": "09:00",
+      "closeHour": "20:00",
+      "address": "321 Elm St, City",
+      "delivery": "true",
+      "id": "b1bc637e-5b6e-4e41-896d-37b45ffde8a7",
+      "name": "Taco Fiesta",
+      "style": "Mexican"
     }
   ]
 }
